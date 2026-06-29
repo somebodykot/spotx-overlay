@@ -2,7 +2,7 @@ final: prev:
 let
   old-pkgs = import (prev.fetchzip {
     url = "https://github.com/NixOS/nixpkgs/archive/release-23.05.tar.gz";
-    hash = "sha256-mlUc62b7Mw+Rpuiy0kqov5JCfrvKqgHLYfTf221gerM=";
+    hash = "sha256-Q8LJaVZGJ9wo33wBafvZSzapYsjOaNjP/pOnSiKVGHY=";
   }) { system = prev.system; };
 
   spotx = prev.fetchurl {
