@@ -36,7 +36,7 @@ in
             bash ${spotx} \
             -f \
             -P "$out/share/spotify" \
-            -o \
+            -o on \
             -p off
             runHook postInstall
           ''
