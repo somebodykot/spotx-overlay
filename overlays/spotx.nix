@@ -37,7 +37,6 @@ in
             -f \
             -P "$out/share/spotify" \
             -o on \
-            -p off
             runHook postInstall
           ''
         ]
