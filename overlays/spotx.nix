@@ -33,7 +33,11 @@ in
         [ "runHook postInstall" ]
         [
           ''
-            bash ${spotx} -f -P "$out/share/spotify"
+            bash ${spotx} \
+            -f \
+            -P "$out/share/spotify" \
+            -o \
+            -p off
             runHook postInstall
           ''
         ]
