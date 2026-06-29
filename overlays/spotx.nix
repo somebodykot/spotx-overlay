@@ -22,8 +22,8 @@ in
     '';
 
     installPhase = ''
-      bash ${spotx} -f -P "$out/share/spotify" -o on
       ${old.installPhase}
+      bash ${spotx} -f -P "$out/share/spotify" -o on
     '';
   });
 }
